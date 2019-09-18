@@ -1,9 +1,5 @@
 /**/
-.bar{
-  background: yellow;
-  border-radius: 120px 0px 120px 0px;
-  height: 60px;
-}
+
 .navbar {
   position: fixed; 
   bottom: 0; 
@@ -69,3 +65,37 @@
   height: 30px;
 }
 
+.form-control{
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  background-image: linear-gradient(to bottom, #FEAFCF, #FFC1B4 130%);
+  
+}
+
+::-webkit-input-placeholder {
+   color: rgb(255, 255, 255);
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+   color: rgb(255, 255, 255);
+   font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: rgb(255, 255, 255);  
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: rgb(255, 255, 255);  
+   font: 12px verdana, arial, sans-serif;
+}
+.a{
+  margin-top: 20px;
+}
+.btn{
+  margin-top: 20px;
+  width: 100%;
+}
