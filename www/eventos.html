@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/bootstrap.css">  
     <link rel="stylesheet" href="css/style.css">
+    ]    <link rel="stylesheet" href="css/evento.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
    
   
@@ -26,19 +27,29 @@
        <button type="" id="ham" onclick="abrirmenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
      </div>
    </div>
+
+     <div class="row">
+       <div class="col-xs-12">
+
+         <div class="jumbotron">
+         EVENTOS
+         </div>
+       </div>
+     </div>
+ 
    <div class="row">
             <br>
      <div class="col-xs-5">
        <img src="k2.jpg" style="height:120px;width:150px;">
      </div>
      <div class="col-xs-4">
-       <p>Rolê do Mikey</p>
+       <h1>Rolê do Mikey</h1>
        <p>Valor : R$16,50</p>
        <p>Data : 23/09/20</p>
      </div>
      <div class="col-xs-3">
-       <button>Confirmar</button>
-       <button>Compart</button>
+       <button class="confirm">Confirmar</button>
+       <button class="compart">Compartilhar</button>
        </div>
    </div>
    <div class="row">
@@ -47,13 +58,13 @@
        <img src="f.jpg" style="height:120px;width:150px;">
      </div>
      <div class="col-xs-4">
-       <p>Rolê do Mikey</p>
+       <h1>Rolê do Mikey</h1>
        <p>Valor : R$16,50</p>
        <p>Data : 23/09/20</p>
      </div>
      <div class="col-xs-3">
-       <button>Confirmar</button>
-       <button>Compart</button>
+       <button class="confirm">Confirmar</button>
+       <button class="compart">Compartilhar</button>
        </div>
    </div>
    <div class="row">
@@ -62,13 +73,13 @@
        <img src="g.jpg" style="height:120px;width:150px;">
      </div>
      <div class="col-xs-4">
-       <p>Rolê do Mikey</p>
+       <h1>Rolê do Mikey</h1>
        <p>Valor : R$16,50</p>
        <p>Data : 23/09/20</p>
      </div>
      <div class="col-xs-3">
-       <button>Confirmar</button>
-       <button>Compart</button>
+       <button class="confirm">Confirmar</button>
+       <button class="compart">Compartilhar</button>
        </div>
    </div>
    <div class="row">
@@ -77,20 +88,34 @@
        <img src="k.jpg" style="height:120px;width:150px;">
      </div>
      <div class="col-xs-4">
-       <p>Luau</p>
+       <h1>Luau</h1>
        <p>Valor : R$16,50</p>
        <p>Data : 23/09/20</p>
      </div>
      <div class="col-xs-3">
-       <button>Confirmar</button>
-       <button>Compart</button>
+       <button class="confirm">Confirmar</button>
+       <button class="compart">Compartilhar</button>
        </div>
    </div>
-      <div class="navbar">
-       <a id="eventos" href="eventos.html">Eventos</a>
-       <a id="adicionar">+</a>
-       <a id="pontos" href="pontos.html">Pontos turisticos</a>
-    </div>
+
+        <table border="">
+
+          <tr>
+            <td>
+                   <button id="eventos"><a href="eventos.html">Eventos</a></button>
+
+            </td>
+            <td>
+                     <button id="adicionar"><a  href="adicionar.html">+</a></button>
+
+            </td>
+            <td>
+             <button id="pontos"><a href="pontos.html">Pontos turisticos</a></button>
+
+            </td>
+          </tr>
+
+        </table>
     </div>
 </body>
 </html>
