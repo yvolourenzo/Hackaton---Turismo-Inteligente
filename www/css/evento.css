@@ -1,4 +1,10 @@
 
+
+body{
+background-color: gray;
+background-image: none;
+}
+
 table{
   border-color: white;
   margin-top: 100px;
@@ -53,6 +59,7 @@ button{
   background-color: white;
   margin-bottom: 5px;
   font-family:cursive;
+  
 }
 
 .confirm{
@@ -72,4 +79,10 @@ button{
 h1{
   margin-top: 10px; 
   font-family: fantasy;
+}
+
+.jumbotron{
+  color: black;
+  font-size: 200%;
+  background-color: rgb(55, 119, 148);
 }

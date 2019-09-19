@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/bootstrap.css">  
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/evento.css">
+          <link rel="stylesheet" href="css/adicionar.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   
+  
+
+</head>
+<body>
+    <div class="container">
+      <div class="row barra">
+       <!-- Sidebar -->
+          <div class="sidebar bar-block border-right" style="display:none" id="mySidebar">
+           <button href="#" class="bar-item button fechar" onclick="fechar()" id="x"><i class="fa fa-close"></i></button>
+           <a href="perfil.html" class="bar-item button" id="perfil">Perfil</a>
+           <a href="index.html" class="bar-item button" id="sair">Sair</a>
+         </div>
+      <div class="col-xs-12">
+       <button type="" id="ham" onclick="abrirmenu()"><i></i></button>
+     </div>
+   </div>
+
+
+        <div class="meio">
+                   <div class="row">
+                           <div class="col-xs-12">
+                             <label for="">Nome do Evento:</label>
+                             <input type="" class="form-control">
+                           </div>
+                   </div>
+            <div class="row">
+                           <div class="col-xs-12">
+                             <label for="">Local do Evento:</label>
+                             <input type="" class="form-control">
+                           </div>
+                   </div>
+                   <div class="row">
+                           <div class="col-xs-12">
+                             <label for="">Data:</label>
+                             <input type="" class="form-control">
+                           </div>
+                   </div>
+                   <div class="row">
+                           <div class="col-xs-12">
+                             <label for="">Preço:</label>
+                             <input type="" class="form-control">
+                           </div>
+                   </div>
+
+                   <div class="row">
+                           <div class="col-xs-6">
+                             <button class="cancelar"><a href="eventos.html">Cancelar</a></button>
+                           </div>
+                           <div class="col-xs-6">
+                             <button class="confirmar">Confirmar</button>
+                           </div>
+                   </div>
+        </div>
+   
+
+       
+    </div>
+</body>
+</html>
+<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/cadastrar.js"></script>

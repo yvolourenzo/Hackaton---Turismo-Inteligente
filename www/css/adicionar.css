@@ -1,0 +1,44 @@
+label{
+  color: white;
+  font-family: arial;
+  font-size: 200%;
+}
+
+body{
+width: 100%;
+height: 100%;
+}
+
+button{
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+}
+
+.cancelar{
+  background-color: red;
+  color:white;
+  font-size: 200%;
+}
+
+.confirmar{
+  background-color: green;
+    color:white;
+  font-size: 300%;
+
+}
+
+.barra{
+  margin-top: -100px;
+}
+
+.fechar{
+  background-color: red;
+  height: 5%;
+}
+
+#ham{
+  width: 10%;
+  margin-left: 0px;
+  background-color: white;
+}
