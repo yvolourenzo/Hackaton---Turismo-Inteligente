@@ -2,7 +2,13 @@ $(function(){
   $('#entrar').click(function(){
      $(location).attr('href', 'eventos.html');
   });
-  
+
+});
+
+ $(function(){
+  $('#cadastrar').click(function(){
+     $(location).attr('href', 'index.html');
+  });
 });
 
 function abrirmenu() {
