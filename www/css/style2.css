@@ -1,6 +1,7 @@
 /**/
 body{
   background-image: url(../imagem/fundo1.png);
+  background-size: 1550px;
   background-position-x: center;
 }
 .navbar {
