@@ -1,7 +1,9 @@
 /**/
 body{
   background-image: url(../imagem/fundo1.png);
-  background-position-x: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 .navbar {
   position: fixed; 
@@ -97,8 +99,8 @@ body{
 }
 
 img{
+  text-align: center;
   margin-top: 20px;
-margin-left: 60px;
 width: 200px;
 height: 100%; 
 }
