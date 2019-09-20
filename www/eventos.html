@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     
     <link rel="stylesheet" href="components/loader.css">
-    <link rel="stylesheet" href="css/bootstrap.css">  
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
     <link rel="stylesheet" href="css/evento.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
    
@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <div class="container">
+   <div class="container">
       <div class="row barra">
        <!-- Sidebar -->
           <div class="sidebar bar-block border-right" style="display:none" id="mySidebar">
@@ -26,6 +26,7 @@
        <button type="" id="ham" onclick="abrirmenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
      </div>
    </div>
+
 
      <div class="row">
        <div class="col-xs-12">
@@ -42,77 +43,122 @@
 <div class="jumbotron">
      <div class="col-xs-7">
        <h1> Aniversário de Mongaguá </h1>
-       <p>Valor : R$16,50</p>
-       <p>Data : 23/09/20</p>
+       <h3> Valor : R$16,50 </h3>
+       <h3> Data : 23/09/20 <h3>
      </div>
 </div>
 
-   </div>
-   <div class="row">
+<div class="row">
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-default"> Compartilhar </button>
+  </div>
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-success"> Confirmar </button>
+  </div>
+
+</div>
+
+<div class="row">
             <br>
      <div class="col-xs-5">
-       <img src="imagem/anonovo.jpg" style="height:120px;width:150px;">
+       <img class="imga" src="imagem/anonovo.jpg">
      </div>
-     <div class="col-xs-4">
-       <h1>Reveillon Iemanja</h1>
-       <p>Valor : R$16,50</p>
-       <p>Data : 23/09/20</p>
+
+<div class="jumbotron">
+     <div class="col-xs-7">
+       <h1> Reveillon Iemanja </h1>
+       <h3> Valor : Franca </h3>
+       <h3> Data : 31/12/19 <h3>
      </div>
-     <div class="col-xs-3">
-       <button class="confirm">Confirmar</button>
-       <button class="compart">Compartilhar</button>
-       </div>
-   </div>
-   <div class="row">
+</div>
+
+<div class="row">
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-default"> Compartilhar </button>
+  </div>
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-success"> Confirmar </button>
+  </div>
+
+</div>
+
+
+<div class="row">
             <br>
      <div class="col-xs-5">
-       <img src="imagem/festao.jpg" style="height:120px;width:150px;">
+       <img class="imgi" src="imagem/festao.jpg">
      </div>
-     <div class="col-xs-4">
-       <h1>17° Festão de Mongaguá</h1>
-       <p>Valor : R$16,50</p>
-       <p>Data : 23/09/20</p>
+
+<div class="jumbotron">
+     <div class="col-xs-7">
+       <h1> 17° Festão de Mongaguá </h1>
+       <h3> Valor : Franca </h3>
+       <h3> Data : 31/06/19 <h3>
      </div>
-     <div class="col-xs-3">
-       <button class="confirm">Confirmar</button>
-       <button class="compart">Compartilhar</button>
-       </div>
-   </div>
-   <div class="row">
+</div>
+
+<div class="row">
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-default"> Compartilhar </button>
+  </div>
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-success"> Confirmar </button>
+  </div>
+
+</div>
+
+
+<div class="row">
             <br>
      <div class="col-xs-5">
-       <img src="imagem/marcha.jpg" style="height:120px;width:150px;">
+       <img class="imge" src="imagem/marcha.jpg">
      </div>
-     <div class="col-xs-4">
-       <h1>Marcha para Jesus</h1>
-       <p>Valor : R$16,50</p>
-       <p>Data : 23/09/20</p>
+
+<div class="jumbotron">
+     <div class="col-xs-7">
+       <h1> Marcha para Jesus </h1>
+       <h3> Valor : Franca </h3>
+       <h3> Data : 02/09/19 <h3>
      </div>
-     <div class="col-xs-3">
-       <button class="confirm">Confirmar</button>
-       <button class="compart">Compartilhar</button>
+</div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-default"> Compartilhar </button>
+  </div>
+
+  <div class="col-xs-6">
+    <button class="btn btn-block btn-success"> Confirmar </button>
+  </div>
+
+</div>
+
+  <div class="row">
+    <div class="navbar">
+      <div class="col-xs-4 um">
+                 <button id="btn" class="btn btn-block btn-info" > <a id="pontos" href="eventos.html"> Eventos </a> </button>  
        </div>
-   </div>
+       <div class="col-xs-2 dois">
+                 <button id="btn" class="btn btn-block btn-warning" > <a id="pontos" href="adicionar.html"> + </a> </button>  
+       </div>
+       <div class="col-xs-4 tres">
+              <button id="btn" class="btn btn-block btn-info" > <a id="pontos" href="pontos.html">Pontos <br> turisticos</a> </button>  
+       </div>
 
-        <table border="">
-
-          <tr>
-            <td>
-                   <button id="eventos"><a href="eventos.html">Eventos</a></button>
-
-            </td>
-            <td>
-                     <button id="adicionar"><a  href="adicionar.html">+</a></button>
-
-            </td>
-            <td>
-             <button id="pontos"><a href="pontos.html">Pontos turisticos</a></button>
-
-            </td>
-          </tr>
-
-        </table>
     </div>
+  </div>
+
+
+</div>
 </body>
 </html>
 <script src="js/jquery-3.4.1.min.js"></script>
