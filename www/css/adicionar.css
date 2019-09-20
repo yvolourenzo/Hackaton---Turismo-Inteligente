@@ -1,3 +1,4 @@
+
 label{
   color: white;
   font-family: arial;
@@ -10,22 +11,25 @@ height: 100%;
 }
 
 button{
-  margin-top: 100px;
-  width: 100%;
-  height: 100px;
+  margin-top: 90px;
+  width: 80%;
+  height: 60px;
 }
 
 .cancelar{
   background-color: red;
   color:white;
-  font-size: 200%;
+  font-size: 30px;
+  border-radius: 30px;
+  border-style: none;
 }
 
 .confirmar{
   background-color: green;
-    color:white;
-  font-size: 200%;
-
+  color:white;
+  font-size: 30px;
+  border-radius: 30px;
+  border-style: none;
 }
 
 .barra{
@@ -42,3 +46,7 @@ button{
   margin-left: 0px;
   background-color: white;
 }
+input{
+  font-size: 30px;
+}
+

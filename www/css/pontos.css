@@ -27,11 +27,7 @@ body{
   background-color: red;
   border-radius: 15px;
 }
-#pontos{
-  background-color: blue;
-  border-radius: 15px;
-  margin-left: 3px;
-}
+
 .bar-block .bar-item
 {
   width:100%;

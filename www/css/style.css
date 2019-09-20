@@ -44,7 +44,6 @@ body{
   white-space:normal;
   float:none;
   outline:0;
-  background-color: ;
   font-size: 20px;
   color: white;
   font-family: 'Aaargh';
@@ -52,7 +51,7 @@ body{
 .sidebar{
   height:100%;
   width:250px;
-  background-color:rgba(195, 0, 255, 0.555);
+  background-color:pink;
   position:fixed!important;
   z-index:1;
   overflow:auto;
